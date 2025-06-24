@@ -53,7 +53,7 @@ function signup() {
 
 function login() {
 
-if (localStorage.getItem("USER-DB") = null) {
+if (localStorage.getItem("USER-DB") == null) {
     console.log("there is data");
     showAlert("You Have to Sign-Up First");
 }
