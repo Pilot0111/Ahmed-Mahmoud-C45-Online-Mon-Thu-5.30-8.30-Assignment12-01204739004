@@ -1,0 +1,54 @@
+body {
+  background-color: #24353f;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+.part1 {
+  box-shadow: 0px 0px 19px 13px rgb(160, 85, 85);
+}
+
+h1 {
+  color: #17a2b8;
+  font-size: 55px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-style: normal;
+  position: relative;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+}
+
+#logoLeft{
+  font-size: 30px;
+}
+
+.logoW{
+text-align: center;
+}
+
+.homeSec{
+  text-align: -webkit-center;
+}
+.logout{
+  margin-left: auto;
+}
+.btn-login {
+  width: 100%;
+
+  transition: 0.3s;
+  /* padding: 10px 50px 10px 50px; */
+}
+
+.btn-login:hover {
+  background: #bb4120;
+  border-color: #a03315;
+  color: white;
+}
+
+/* end of css */
+
