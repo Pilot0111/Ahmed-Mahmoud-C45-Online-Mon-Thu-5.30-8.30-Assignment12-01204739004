@@ -52,6 +52,12 @@ function signup() {
 }
 
 function login() {
+
+if (localStorage.getItem("USER-DB") = null) {
+    console.log("there is data");
+    showAlert("You Have to Sign-Up First");
+}
+
   for (let i = 0; i < userArr.length; i++) {
     if (userArr[i].Email == email.value) {
       console.log("User exisit");
